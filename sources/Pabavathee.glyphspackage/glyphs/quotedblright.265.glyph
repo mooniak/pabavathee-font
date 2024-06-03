@@ -1,0 +1,15 @@
+{
+color = 11;
+glyphname = quotedblright.265;
+layers = (
+{
+layerId = "B33422F0-91E4-47C9-8809-C0A5C4DE8881";
+shapes = (
+{
+ref = "wipfontnote-lksymbol";
+}
+);
+width = 570;
+}
+);
+}

@@ -1,0 +1,11 @@
+{
+color = (166,255,153,255);
+glyphname = space;
+layers = (
+{
+layerId = "B33422F0-91E4-47C9-8809-C0A5C4DE8881";
+width = 211;
+}
+);
+unicode = 32;
+}

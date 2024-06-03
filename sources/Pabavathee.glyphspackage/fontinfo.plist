@@ -1,0 +1,1337 @@
+{
+.appVersion = "3260";
+.formatVersion = 3;
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Write Last Change";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+}
+);
+date = "2024-05-05 02:08:05 +0000";
+familyName = Pabavathee;
+featurePrefixes = (
+{
+code = "#> languagesystem
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem sinh dflt;
+#< languagesystem
+";
+name = xxxx;
+}
+);
+features = (
+{
+code = " # Above-Base Substitutions
+ script sinh; # Sinhala
+lookup abvs1 {
+    sub quoteright.005 quotedblright.031 by quotedblright.039;
+    sub quoteright.005 quotedblright.021 by quotedblright.039;
+    sub quoteright.005 quotedblright.023 by bullet.020;
+    sub quoteright.005 bullet.012 by endash.020;
+    sub quoteright.005 quoteright.015 by quotedblleft.040;
+    sub quotedblleft.008 quotedblright.031 by quotedblleft.044;
+    sub quotedblleft.008 quotedblright.021 by quotedblleft.044;
+    sub quotedblleft.008 quotedblright.023 by quotedblright.044;
+    sub quotedblleft.008 quoteright.015 by quotedblleft.172;
+    sub quotedblleft.008 bullet.012 by quotedblleft.045;
+    sub quotedblright.008 quotedblright.031 by quotedblright.046;
+    sub quotedblright.008 quotedblright.021 by quotedblright.046;
+    sub quotedblright.008 quotedblright.023 by quotedblleft.047;
+    sub quotedblright.008 bullet.012 by quotedblright.047;
+    sub quotedblright.008 quoteright.015 by emdash.024;
+    sub quotedblleft.009 quotedblright.031 by quotedblright.049;
+    sub quotedblleft.009 quotedblright.021 by quotedblright.049;
+    sub quotedblleft.009 quotedblright.023 by bullet.025;
+    sub quotedblleft.009 bullet.012 by endash.025;
+    sub quotedblleft.009 quoteright.015 by quotedblleft.050;
+    sub quotedblright.009 quotedblright.031 by bullet.026;
+    sub quotedblright.009 quotedblright.021 by bullet.026;
+    sub quotedblright.009 quotedblright.023 by endash.026;
+    sub quotedblright.009 bullet.012 by emdash.026;
+    sub bullet.005 quotedblright.031 by endash.027;
+    sub bullet.005 quotedblright.021 by endash.027;
+    sub bullet.005 quotedblright.023 by emdash.027;
+    sub bullet.005 bullet.012 by quoteright.028;
+    sub endash.005 quotedblright.031 by endash.028;
+    sub endash.005 quotedblright.021 by endash.028;
+    sub endash.005 quotedblright.023 by emdash.028;
+    sub endash.005 bullet.012 by quoteright.029;
+    sub endash.005 quoteright.015 by quotedblleft.057;
+    sub emdash.005 quotedblright.031 by quoteright.030;
+    sub emdash.005 quotedblright.021 by quoteright.030;
+    sub emdash.005 quoteright.015 by quotedblright.176;
+    sub emdash.005 quotedblright.023 by quotedblleft.058;
+    sub emdash.005 bullet.012 by quotedblright.058;
+    sub quoteright.006 quotedblright.031 by quoteright.031;
+    sub quoteright.006 quotedblright.021 by quoteright.031;
+    sub quoteright.006 quotedblright.023 by quotedblleft.060;
+    sub quoteright.006 bullet.012 by quotedblright.060;
+    sub quoteright.006 quoteright.015 by bullet.031;
+    sub quotedblleft.010 quotedblright.031 by quotedblleft.062;
+    sub quotedblleft.010 quotedblright.021 by quotedblleft.062;
+    sub quotedblleft.010 quoteright.015 by quotedblleft.176;
+    sub quotedblleft.010 quotedblright.023 by quotedblright.062;
+    sub quotedblleft.010 bullet.012 by quotedblleft.063;
+    sub quotedblright.010 quotedblright.031 by quotedblright.064;
+    sub quotedblright.010 quotedblright.021 by quotedblright.064;
+    sub quotedblright.010 quotedblright.022 by bullet.182;
+    sub quotedblright.010 quotedblleft.023 by quotedblright.282;
+    sub quotedblright.010 quotedblright.023 by quotedblright.065;
+    sub quotedblright.010 bullet.012 by bullet.033;
+    sub quotedblleft.011 quotedblright.031 by quotedblleft.067;
+    sub quotedblleft.011 quotedblright.021 by quotedblleft.067;
+    sub quotedblleft.011 quotedblright.022 by quotedblleft.238;
+    sub quotedblleft.011 quotedblleft.023 by quotedblright.283;
+    sub quotedblleft.011 quotedblright.023 by bullet.034;
+    sub quotedblleft.011 bullet.012 by endash.034;
+    sub quotedblright.011 quotedblright.031 by quotedblright.069;
+    sub quotedblright.011 quotedblright.021 by quotedblright.069;
+    sub quotedblright.011 quotedblright.023 by bullet.035;
+    sub quotedblright.011 bullet.012 by endash.035;
+    sub bullet.006 quotedblright.031 by quotedblright.070;
+    sub bullet.006 quotedblright.021 by quotedblright.070;
+    sub bullet.006 quotedblright.023 by quotedblleft.071;
+    sub bullet.006 bullet.012 by quotedblright.071;
+    sub bullet.006 quoteright.015 by emdash.036;
+    sub endash.006 quotedblright.031 by quotedblright.073;
+    sub endash.006 quotedblright.021 by quotedblright.073;
+    sub endash.006 quoteright.015 by quotedblleft.178;
+    sub endash.006 quotedblright.023 by bullet.037;
+    sub endash.006 bullet.012 by endash.037;
+    sub emdash.006 quotedblright.031 by quotedblright.075;
+    sub emdash.006 quotedblright.021 by quotedblright.075;
+    sub emdash.006 quotedblright.023 by bullet.038;
+    sub emdash.006 bullet.012 by endash.038;
+    sub emdash.006 quoteright.015 by quotedblleft.076;
+    sub quoteright.007 quotedblright.031 by endash.039;
+    sub quoteright.007 quotedblright.021 by endash.039;
+    sub quoteright.007 quoteright.015 by quotedblleft.179;
+    sub quoteright.007 quotedblright.023 by emdash.039;
+    sub quoteright.007 bullet.012 by quoteright.040;
+    sub quotedblleft.012 quotedblright.031 by endash.040;
+    sub quotedblleft.012 quotedblright.021 by endash.040;
+    sub quotedblleft.012 quotedblright.023 by emdash.040;
+    sub quotedblleft.012 bullet.012 by quoteright.041;
+    sub quotedblleft.012 quoteright.015 by quotedblleft.081;
+    sub quotedblright.012 quotedblright.031 by emdash.041;
+    sub quotedblright.012 quotedblright.021 by emdash.041;
+    sub quotedblright.012 quotedblright.023 by quoteright.042;
+    sub quotedblright.012 bullet.012 by quotedblleft.082;
+    sub quotedblleft.013 quotedblright.031 by quoteright.043;
+    sub quotedblleft.013 quotedblright.021 by quoteright.043;
+    sub quotedblleft.013 quotedblright.023 by quotedblleft.084;
+    sub quotedblleft.013 bullet.012 by quotedblright.084;
+    sub quotedblleft.013 quoteright.015 by bullet.043;
+    sub quotedblright.013 quotedblright.031 by bullet.045;
+    sub quotedblright.013 quotedblright.021 by bullet.045;
+    sub quotedblright.013 quotedblright.023 by endash.045;
+    sub quotedblright.013 bullet.012 by emdash.045;
+    sub quotedblright.013 quoteright.015 by quotedblright.090;
+    sub bullet.007 quotedblright.031 by endash.046;
+    sub bullet.007 quotedblright.021 by endash.046;
+    sub bullet.007 quotedblright.022 by quoteright.047;
+    sub bullet.007 quotedblleft.023 by quotedblleft.092;
+    sub bullet.007 quotedblright.023 by quotedblright.092;
+    sub bullet.007 bullet.012 by quotedblleft.093;
+    sub bullet.007 quoteright.015 by quotedblleft.094;
+    sub endash.007 quotedblright.031 by quoteright.049;
+    sub endash.007 quotedblright.021 by quoteright.049;
+    sub endash.007 quotedblright.023 by quotedblleft.096;
+    sub endash.007 bullet.012 by quotedblright.096;
+    sub endash.007 quoteright.015 by bullet.049;
+    sub emdash.007 quotedblright.031 by quotedblright.098;
+    sub emdash.007 quotedblright.021 by quotedblright.098;
+    sub emdash.007 quoteright.015 by bullet.091;
+    sub emdash.007 quotedblright.023 by quotedblleft.099;
+    sub emdash.007 bullet.012 by quotedblright.099;
+    sub quoteright.008 quotedblright.031 by emdash.052;
+    sub quoteright.008 quotedblright.021 by emdash.052;
+    sub quoteright.008 quotedblright.022 by quotedblleft.185;
+    sub quoteright.008 quotedblleft.023 by quotedblright.187;
+    sub quoteright.008 quotedblright.023 by quotedblleft.104;
+    sub quoteright.008 bullet.012 by quotedblright.104;
+    sub quotedblleft.014 quotedblright.031 by quotedblleft.111;
+    sub quotedblleft.014 quotedblright.021 by quotedblleft.111;
+    sub quotedblleft.014 quotedblright.023 by quotedblright.111;
+    sub quotedblleft.014 bullet.012 by bullet.056;
+    sub quotedblleft.014 quoteright.015 by quoteright.057;
+    sub quotedblright.014 quotedblright.031 by bullet.057;
+    sub quotedblright.014 quotedblright.021 by bullet.057;
+    sub quotedblright.014 quoteright.015 by quotedblleft.186;
+    sub quotedblright.014 quotedblright.023 by endash.057;
+    sub quotedblright.014 bullet.012 by emdash.057;
+    sub quotedblleft.015 quotedblright.031 by bullet.058;
+    sub quotedblleft.015 quotedblright.021 by bullet.058;
+    sub quotedblleft.015 quotedblright.023 by endash.058;
+    sub quotedblleft.015 bullet.012 by emdash.058;
+    sub quotedblleft.015 quoteright.015 by quotedblright.116;
+    sub quotedblright.015 quotedblright.031 by emdash.059;
+    sub quotedblright.015 quotedblright.021 by emdash.059;
+    sub quotedblright.015 quotedblright.023 by quoteright.060;
+    sub quotedblright.015 bullet.012 by quotedblleft.118;
+    sub quotedblright.015 quoteright.015 by quotedblright.119;
+    sub bullet.008 quotedblright.031 by quoteright.061;
+    sub bullet.008 quotedblright.021 by quoteright.061;
+    sub bullet.008 quotedblright.023 by quotedblleft.120;
+    sub bullet.008 bullet.012 by quotedblright.120;
+    sub bullet.008 quoteright.015 by bullet.061;
+    sub endash.008 quotedblright.031 by quotedblright.122;
+    sub endash.008 quotedblright.021 by quotedblright.122;
+    sub endash.008 quotedblright.023 by quotedblleft.123;
+    sub endash.008 bullet.012 by quotedblright.123;
+    sub emdash.008 quotedblright.021 by quotedblleft.125;
+    sub emdash.008 quotedblright.031 by quotedblleft.125;
+    sub emdash.008 quotedblright.023 by quotedblright.125;
+    sub emdash.008 bullet.012 by bullet.063;
+    sub emdash.008 quoteright.015 by quoteright.064;
+    sub quoteright.009 quotedblright.031 by bullet.064;
+    sub quoteright.009 quotedblright.021 by bullet.064;
+    sub quoteright.009 quotedblright.022 by endash.064;
+    sub quoteright.009 quotedblleft.023 by emdash.064;
+    sub quoteright.009 quotedblright.023 by quoteright.065;
+    sub quoteright.009 bullet.012 by quotedblleft.128;
+    sub quotedblleft.016 quotedblright.031 by quotedblright.129;
+    sub quotedblleft.016 quotedblright.021 by quotedblright.129;
+    sub quotedblleft.016 quotedblright.023 by bullet.065;
+    sub quotedblleft.016 bullet.012 by endash.065;
+    sub quotedblleft.016 quoteright.015 by quotedblleft.130;
+    sub quotedblright.016 quotedblright.031 by quotedblleft.131;
+    sub quotedblright.016 quotedblright.021 by quotedblleft.131;
+    sub quotedblright.016 quotedblright.023 by quotedblright.131;
+    sub quotedblright.016 bullet.012 by bullet.066;
+    sub quotedblright.016 quoteright.015 by quoteright.067;
+    sub quotedblleft.017 quotedblright.031 by bullet.067;
+    sub quotedblleft.017 quotedblright.021 by bullet.067;
+    sub quotedblleft.017 quotedblright.023 by endash.067;
+    sub quotedblleft.017 bullet.012 by emdash.067;
+    sub quotedblleft.017 quoteright.015 by quotedblright.134;
+    sub bullet.009 quotedblright.031 by emdash.069;
+    sub bullet.009 quotedblright.021 by emdash.069;
+    sub bullet.009 quotedblright.023 by quoteright.070;
+    sub bullet.009 bullet.012 by quotedblleft.138;
+    sub bullet.009 quoteright.015 by quotedblright.139;
+    sub endash.009 quotedblright.031 by quoteright.071;
+    sub endash.009 quotedblright.021 by quoteright.071;
+    sub endash.009 quotedblright.023 by quotedblleft.140;
+    sub endash.009 bullet.012 by quotedblright.140;
+    sub endash.009 quoteright.015 by bullet.071;
+    sub emdash.009 quotedblright.031 by quotedblleft.142;
+    sub emdash.009 quotedblright.021 by quotedblleft.142;
+    sub emdash.009 quotedblright.023 by quotedblright.142;
+    sub emdash.009 bullet.012 by quotedblleft.143;
+    sub quoteright.010 quotedblright.023 by emdash.072;
+    sub quoteright.010 bullet.012 by quoteright.073;
+    sub quoteright.010 quotedblright.021 by emdash.104;
+    sub quoteright.010 quoteright.015 by quoteright.105;
+    sub quotedblright.028 quoteright.015 by quotedblright.127;
+    sub quotedblright.028 quoteright.015 by quotedblright.127;
+    sub quotedblright.040 quotedblright.021 by quotedblright.173;
+    sub quotedblright.040 quotedblright.031 by quotedblright.173;
+    sub quotedblright.040 quotedblright.023 by quotedblleft.041;
+    sub quotedblright.040 bullet.012 by quotedblright.041;
+    sub bullet.021 quotedblright.031 by endash.021;
+    sub bullet.021 quotedblright.021 by endash.021;
+    sub bullet.021 quotedblright.023 by emdash.021;
+    sub bullet.021 bullet.012 by quoteright.022;
+    sub endash.023 quotedblright.031 by emdash.023;
+    sub endash.023 quotedblright.021 by emdash.023;
+    sub endash.023 quotedblright.023 by quoteright.024;
+    sub endash.023 bullet.012 by quotedblleft.046;
+    sub quoteright.025 quotedblright.021 by quotedblleft.048;
+    sub quoteright.025 quotedblright.023 by quotedblright.048;
+    sub quoteright.025 bullet.012 by quotedblleft.049;
+    sub quotedblright.050 quotedblright.021 by quotedblright.175;
+    sub quotedblright.050 quotedblright.031 by quotedblright.175;
+    sub quotedblright.050 quotedblright.023 by quotedblleft.051;
+    sub quotedblright.050 bullet.012 by quotedblright.051;
+    sub quotedblright.052 quotedblright.021 by quotedblleft.053;
+    sub quotedblright.052 quotedblright.023 by quotedblright.053;
+    sub quotedblright.052 bullet.012 by bullet.027;
+    sub quotedblleft.055 quotedblright.023 by quotedblright.055;
+    sub quotedblleft.055 bullet.012 by bullet.028;
+    sub quotedblright.057 quotedblright.021 by bullet.029;
+    sub quotedblright.057 quotedblright.031 by bullet.029;
+    sub quotedblright.057 quotedblright.023 by endash.029;
+    sub quotedblright.057 bullet.012 by emdash.029;
+    sub bullet.030 quotedblright.021 by bullet.088;
+    sub bullet.030 quotedblright.031 by bullet.088;
+    sub bullet.030 quotedblright.023 by endash.030;
+    sub bullet.030 bullet.012 by emdash.030;
+    sub endash.031 quotedblright.021 by quoteright.091;
+    sub endash.031 quotedblright.031 by quoteright.091;
+    sub endash.031 quotedblright.023 by emdash.031;
+    sub endash.031 bullet.012 by quoteright.032;
+    sub endash.032 quotedblright.021 by emdash.032;
+    sub endash.032 quotedblright.031 by emdash.032;
+    sub endash.032 quotedblright.023 by quoteright.033;
+    sub endash.032 bullet.012 by quotedblleft.064;
+    sub quoteright.034 quotedblright.023 by quotedblleft.066;
+    sub quoteright.034 bullet.012 by quotedblright.066;
+    sub quotedblleft.068 quotedblright.023 by quotedblright.068;
+    sub quotedblleft.068 bullet.012 by quotedblleft.069;
+    sub quotedblleft.070 quotedblright.021 by quoteright.092;
+    sub quoteright.037 quotedblright.021 by quotedblleft.072;
+    sub quoteright.037 quotedblright.031 by quotedblleft.072;
+    sub quoteright.037 quotedblright.023 by quotedblright.072;
+    sub quoteright.037 bullet.012 by quotedblleft.073;
+    sub quotedblleft.074 quotedblright.021 by endash.089;
+    sub quotedblleft.074 quotedblright.023 by quotedblright.074;
+    sub quotedblleft.074 bullet.012 by quotedblleft.075;
+    sub quotedblright.076 quotedblright.021 by quotedblleft.077;
+    sub quotedblright.076 quotedblright.031 by quotedblleft.077;
+    sub quotedblright.076 quotedblright.023 by quotedblright.077;
+    sub quotedblright.076 bullet.012 by bullet.039;
+    sub quotedblleft.079 quotedblright.021 by quoteright.094;
+    sub quotedblleft.079 quotedblright.023 by quotedblright.079;
+    sub quotedblleft.079 bullet.012 by bullet.040;
+    sub quotedblright.081 quotedblright.021 by quotedblleft.181;
+    sub quotedblright.081 quotedblright.023 by bullet.041;
+    sub quotedblright.083 quotedblright.021 by bullet.042;
+    sub quotedblright.083 quotedblright.023 by endash.042;
+    sub quotedblright.083 bullet.012 by emdash.042;
+    sub endash.043 quotedblright.021 by endash.090;
+    sub endash.043 quotedblright.031 by endash.090;
+    sub endash.043 quotedblright.023 by emdash.043;
+    sub endash.043 bullet.012 by quoteright.044;
+    sub quotedblleft.086 quotedblright.023 by quotedblright.086;
+    sub quotedblleft.086 bullet.012 by quotedblleft.087;
+    sub quotedblleft.086 quoteright.015 by endash.044;
+    sub emdash.044 quotedblright.021 by emdash.044;
+    sub emdash.044 quotedblright.031 by emdash.044;
+    sub emdash.044 quotedblright.023 by quoteright.045;
+    sub emdash.044 bullet.012 by quotedblleft.088;
+    sub emdash.044 quoteright.015 by quotedblright.089;
+    sub quotedblleft.091 quotedblright.021 by quotedblleft.182;
+    sub quotedblleft.091 quotedblright.023 by quotedblright.091;
+    sub quotedblleft.091 bullet.012 by bullet.046;
+    sub quotedblright.094 quotedblright.021 by quoteright.096;
+    sub quotedblright.094 quotedblright.023 by quotedblright.095;
+    sub quotedblright.094 bullet.012 by bullet.048;
+    sub endash.049 quotedblright.021 by emdash.049;
+    sub endash.049 quotedblright.031 by emdash.049;
+    sub endash.049 quotedblright.023 by quoteright.050;
+    sub endash.049 bullet.012 by quotedblleft.098;
+    sub emdash.050 quotedblright.021 by quoteright.097;
+    sub emdash.050 quotedblright.031 by quoteright.097;
+    sub emdash.050 quotedblright.023 by quoteright.051;
+    sub emdash.050 bullet.012 by quotedblleft.100;
+    sub quotedblright.100 quotedblleft.022 quotedblright.021 by bullet.151;
+    sub quotedblright.100 endash.016 by bullet.151;
+    sub quotedblright.100 quotedblright.022 by bullet.183;
+    sub quotedblright.100 quotedblleft.023 by bullet.184;
+    sub quotedblright.100 quotedblleft.022 by quotedblleft.101;
+    sub quotedblright.100 bullet.016 by quotedblleft.101;
+    sub quotedblright.100 quotedblright.023 by quotedblright.101;
+    sub quotedblright.100 bullet.012 by bullet.051;
+    sub quoteright.052 quotedblright.023 by quotedblleft.102;
+    sub quoteright.052 bullet.012 by quotedblright.102;
+    sub quotedblleft.103 quotedblright.021 by quotedblright.253;
+    sub quotedblleft.103 quotedblright.031 by quotedblright.253;
+    sub quotedblleft.103 quotedblright.023 by quotedblright.103;
+    sub quotedblleft.103 bullet.012 by bullet.052;
+    sub bullet.053 quotedblright.023 by endash.053;
+    sub bullet.053 bullet.012 by emdash.053;
+    sub quoteright.054 quotedblright.031 by quotedblleft.106;
+    sub quoteright.054 quotedblright.021 by quotedblleft.106;
+    sub quoteright.054 quotedblright.023 by quotedblright.106;
+    sub quoteright.054 bullet.012 by quotedblleft.107;
+    sub endash.054 quotedblright.021 by emdash.054;
+    sub endash.054 quotedblright.023 by quoteright.055;
+    sub endash.054 bullet.012 by quotedblleft.108;
+    sub endash.054 quoteright.015 by quotedblright.109;
+    sub bullet.055 quotedblright.031 by endash.055;
+    sub bullet.055 quotedblright.021 by endash.055;
+    sub bullet.055 quotedblright.023 by emdash.055;
+    sub bullet.055 bullet.012 by quoteright.056;
+    sub quotedblleft.112 quotedblright.021 by quotedblright.112;
+    sub quotedblleft.112 quotedblright.023 by quotedblleft.113;
+    sub quotedblleft.112 bullet.012 by quotedblright.113;
+    sub quotedblright.114 quotedblright.021 by quotedblright.189;
+    sub quotedblright.114 quotedblright.023 by quotedblleft.115;
+    sub quotedblright.114 bullet.012 by quotedblright.115;
+    sub quotedblleft.117 quotedblright.021 by quotedblright.117;
+    sub quotedblleft.117 quotedblright.031 by quotedblright.117;
+    sub quotedblleft.117 quotedblright.023 by bullet.059;
+    sub quotedblleft.117 bullet.012 by endash.059;
+    sub bullet.060 quotedblright.021 by quotedblleft.188;
+    sub bullet.060 quotedblright.023 by endash.060;
+    sub bullet.060 bullet.012 by emdash.060;
+    sub endash.061 quotedblright.021 by emdash.061;
+    sub endash.061 quotedblright.031 by emdash.061;
+    sub endash.061 quotedblright.023 by quoteright.062;
+    sub endash.061 bullet.012 by quotedblleft.122;
+    sub emdash.062 quotedblright.021 by quoteright.063;
+    sub emdash.062 quotedblright.023 by quotedblleft.124;
+    sub emdash.062 bullet.012 by quotedblright.124;
+    sub quotedblleft.132 quotedblright.021 by quotedblright.132;
+    sub quotedblleft.132 quotedblright.031 by quotedblright.132;
+    sub quotedblleft.132 quotedblright.023 by quotedblleft.133;
+    sub quotedblleft.132 bullet.012 by quotedblright.133;
+    sub quotedblleft.135 quotedblright.021 by quotedblright.135;
+    sub quotedblleft.135 quotedblright.031 by quotedblright.135;
+    sub quotedblleft.135 quotedblright.023 by bullet.068;
+    sub quotedblleft.135 bullet.012 by endash.068;
+    sub bullet.070 quotedblright.021 by quotedblleft.196;
+    sub bullet.070 quotedblright.031 by quotedblleft.196;
+    sub bullet.070 quotedblright.023 by endash.070;
+    sub bullet.070 bullet.012 by emdash.070;
+    sub endash.071 quotedblright.021 by endash.095;
+    sub endash.071 quotedblright.031 by endash.095;
+    sub endash.071 quotedblright.023 by emdash.071;
+    sub endash.071 quotedblright.023 by quoteright.072;
+    sub quotedblleft.156 quotedblright.021 by emdash.105;
+    sub quotedblleft.156 quotedblright.031 by emdash.105;
+    sub quotedblleft.156 quotedblright.023 by quoteright.106;
+    sub quotedblleft.156 bullet.012 by quotedblleft.198;
+    sub quotedblright.158 quotedblright.021 by quotedblleft.205;
+    sub quotedblright.158 quotedblright.031 by quotedblleft.205;
+    sub quotedblright.158 quotedblright.023 by quotedblright.211;
+    sub quotedblright.158 bullet.012 by bullet.107;
+    sub quotedblright.154 quotedblright.021 by bullet.144;
+    sub quotedblright.154 quotedblright.031 by bullet.144;
+    sub quotedblright.154 quotedblright.023 by quotedblright.246;
+    sub quotedblright.154 bullet.012 by quotedblleft.222;
+    sub bullet.077 quotedblright.023 by bullet.146;
+    sub bullet.077 bullet.012 by quotedblright.248;
+    sub endash.077 quotedblright.021 by quotedblleft.201;
+    sub endash.077 quotedblright.023 by quotedblright.203;
+    sub endash.077 bullet.012 by bullet.099;
+    sub emdash.078 quotedblright.021 by quotedblleft.202;
+    sub emdash.078 quotedblright.031 by quotedblleft.202;
+    sub emdash.078 quotedblright.023 by quotedblright.205;
+    sub emdash.078 bullet.012 by bullet.101;
+    sub quotedblright.155 quotedblright.021 by quotedblleft.203;
+    sub quotedblright.155 quotedblright.031 by quotedblleft.203;
+    sub quotedblright.155 quotedblright.023 by quotedblright.207;
+    sub quotedblright.155 bullet.012 by bullet.103;
+    sub quotedblleft.154 quotedblright.021 by quotedblleft.204;
+    sub quotedblleft.154 quotedblright.031 by quotedblleft.204;
+    sub quotedblleft.154 quotedblright.023 by quotedblright.209;
+    sub quotedblleft.154 bullet.012 by bullet.105;
+} abvs1;
+lookup abvs7 {
+    sub quotedblleft.043' quoteright.015 quotedblright.023 by bullet.022;
+} abvs7;
+lookup abvs8 {
+    sub quotedblleft.043' quoteright.015 bullet.012 by endash.022;
+} abvs8;
+lookup abvs9 {
+    sub bullet.022 quoteright.015' [quotedblright.023 bullet.012]' by quoteright.015;
+    sub endash.022 quoteright.015' [quotedblright.023 bullet.012]' by quoteright.015;
+} abvs9;
+lookup abvs23 {
+    sub quotedblright.010 quotedblleft.022 quotedblright.021 by quotedblleft.223;
+    sub quotedblright.010 endash.016 by quotedblleft.223;
+    sub quotedblright.010 quotedblleft.022 by quotedblleft.065;
+    sub quotedblright.010 bullet.016 by quotedblleft.065;
+    sub quotedblleft.011 quotedblleft.022 quotedblright.021 by quotedblright.250;
+    sub quotedblleft.011 endash.016 by quotedblright.250;
+    sub quotedblleft.011 quotedblleft.022 by quotedblright.067;
+    sub quotedblleft.011 bullet.016 by quotedblright.067;
+    sub bullet.007 quotedblleft.022 quotedblright.021 by emdash.047;
+    sub bullet.007 endash.016 by emdash.047;
+    sub bullet.007 quotedblleft.022 by emdash.046;
+    sub bullet.007 bullet.016 by emdash.046;
+    sub quoteright.008 quotedblleft.022 quotedblright.021 by bullet.149;
+    sub quoteright.008 endash.016 by bullet.149;
+    sub quoteright.008 quotedblleft.022 by quoteright.053;
+    sub quoteright.008 bullet.016 by quoteright.053;
+    sub quotedblright.094 quotedblleft.022 quotedblright.021 by bullet.150;
+    sub quotedblright.094 endash.016 by bullet.150;
+    sub quotedblright.094 quotedblleft.022 by quotedblleft.095;
+    sub quotedblright.094 bullet.016 by quotedblleft.095;
+    sub endash.048 quotedblleft.022 quotedblright.021 by quotedblright.185;
+    sub endash.048 endash.016 by quotedblright.185;
+    sub endash.048 quotedblleft.022 by emdash.048;
+    sub endash.048 bullet.016 by emdash.048;
+    sub endash.048 quotedblright.021 by quotedblleft.183;
+    sub endash.048 quotedblright.031 by quotedblleft.183;
+} abvs23;
+lookup abvs24 {
+    sub quotedblleft.040' quotedblright.021 quoteright.016 quotedblright.017 by quotedblleft.043;
+} abvs24;
+lookup abvs25 {
+    sub quotedblleft.043 quotedblright.021' quoteright.016' quotedblright.017' by quoteright.015;
+} abvs25;
+lookup abvs26 {
+    sub quotedblleft.043 quoteright.015 by bullet.096;
+} abvs26;
+lookup abvs30 {
+    sub quotedblright.017 quotedblright.031 by quoteright.069;
+    sub quotedblright.017 quotedblright.021 by quoteright.069;
+    sub quotedblright.017 quotedblright.023 by quotedblleft.136;
+    sub quotedblright.017 bullet.012 by quotedblright.136;
+    sub quotedblright.017 quoteright.015 by bullet.069;
+    sub quotedblleft.043 quotedblright.031 by quotedblright.043;
+    sub quotedblleft.043 quotedblright.021 by quotedblright.043;
+    sub quotedblleft.043 quotedblright.023 by bullet.022;
+    sub quotedblleft.043 bullet.012 by endash.022;
+    sub endash.069 quotedblright.021 by quotedblright.196;
+    sub endash.069 quotedblright.023 by emdash.103;
+    sub endash.069 bullet.012 by quoteright.104;
+    sub endash.096 quotedblright.023 by quotedblleft.200;
+    sub endash.096 bullet.012 by quotedblright.202;
+} abvs30;
+lookup abvs32 {
+    sub bullet.022 quoteright.015 by bullet.097;
+    sub endash.022 quoteright.015 by bullet.098;
+    sub bullet.096 quotedblright.023 by bullet.097;
+    sub bullet.096 bullet.012 by bullet.098;
+} abvs32;
+lookup abvs34 {
+    sub quoteright.064' quotedblright.021 quoteright.016 emdash.008 by emdash.076;
+} abvs34;
+lookup abvs35 {
+    sub emdash.076 quotedblright.021' quoteright.016' emdash.008' by quoteright.015;
+} abvs35;
+lookup abvs36 {
+    sub emdash.076 quoteright.015 by quotedblright.032;
+} abvs36;
+lookup abvs38 {
+    sub quotedblleft.040' quotedblright.021 quoteright.016 quotedblright.016 by bullet.021;
+} abvs38;
+lookup abvs39 {
+    sub bullet.021 quotedblright.021' quoteright.016' quotedblright.016' by quoteright.015;
+} abvs39;
+lookup abvs40 {
+    sub bullet.021 quoteright.015 by bullet.152;
+} abvs40;
+lookup abvs41 {
+    sub quoteright.087 quotedblright.021 by quotedblleft.225;
+    sub quoteright.087 quotedblright.031 by quotedblleft.225;
+    sub quotedblleft.034 quotedblright.021 by quotedblright.254;
+    sub quotedblleft.034 quotedblright.031 by quotedblright.254;
+    sub quotedblright.029 quotedblright.021 by bullet.153;
+    sub quotedblright.029 quotedblright.031 by bullet.153;
+    sub quotedblleft.145 quotedblright.021 by bullet.154;
+    sub quotedblleft.145 quotedblright.031 by bullet.154;
+    sub quotedblright.145 quotedblright.021 by quotedblright.255;
+    sub quotedblright.145 quotedblright.031 by quotedblright.255;
+    sub bullet.015 quotedblright.021 by quotedblleft.226;
+    sub bullet.015 quotedblright.031 by quotedblleft.226;
+    sub endash.015 quotedblright.021 by quotedblright.256;
+    sub endash.015 quotedblright.031 by quotedblright.256;
+    sub emdash.073 quotedblright.021 by bullet.155;
+    sub emdash.073 quotedblright.031 by bullet.155;
+    sub quoteright.018 quotedblright.021 by bullet.156;
+    sub quoteright.018 quotedblright.031 by bullet.156;
+    sub quotedblleft.146 quotedblright.021 by quotedblright.257;
+    sub quotedblleft.146 quotedblright.031 by quotedblright.257;
+    sub quotedblright.146 quotedblright.021 by quotedblleft.227;
+    sub quotedblright.146 quotedblright.031 by quotedblleft.227;
+    sub quotedblleft.147 quotedblright.021 by quotedblright.258;
+    sub quotedblleft.147 quotedblright.031 by quotedblright.258;
+    sub quotedblright.147 quotedblright.021 by bullet.157;
+    sub quotedblright.147 quotedblright.031 by bullet.157;
+    sub bullet.073 quotedblright.021 by bullet.158;
+    sub bullet.073 quotedblright.031 by bullet.158;
+    sub endash.073 quotedblright.021 by quotedblright.259;
+    sub endash.073 quotedblright.031 by quotedblright.259;
+    sub emdash.074 quotedblright.021 by quotedblleft.228;
+    sub emdash.074 quotedblright.031 by quotedblleft.228;
+    sub quoteright.074 quotedblright.021 by quotedblright.260;
+    sub quoteright.074 quotedblright.031 by quotedblright.260;
+    sub quotedblleft.148 quotedblright.021 by bullet.159;
+    sub quotedblleft.148 quotedblright.031 by bullet.159;
+    sub quotedblright.148 quotedblright.021 by bullet.160;
+    sub quotedblright.148 quotedblright.031 by bullet.160;
+    sub quotedblleft.149 quotedblright.021 by quotedblright.261;
+    sub quotedblleft.149 quotedblright.031 by quotedblright.261;
+    sub quotedblright.149 quotedblright.021 by quotedblleft.229;
+    sub quotedblright.149 quotedblright.031 by quotedblleft.229;
+    sub endash.074 quotedblright.021 by bullet.161;
+    sub endash.074 quotedblright.031 by bullet.161;
+    sub emdash.075 quotedblright.021 by bullet.162;
+    sub emdash.075 quotedblright.031 by bullet.162;
+    sub quoteright.075 quotedblright.021 by quotedblright.263;
+    sub quoteright.075 quotedblright.031 by quotedblright.263;
+    sub quotedblleft.150 quotedblright.021 by bullet.163;
+    sub quotedblleft.150 quotedblright.031 by bullet.163;
+    sub quotedblright.150 quotedblright.021 by bullet.164;
+    sub quotedblright.150 quotedblright.031 by bullet.164;
+    sub quotedblleft.151 quotedblright.021 by quotedblright.264;
+    sub quotedblleft.151 quotedblright.031 by quotedblright.264;
+    sub quotedblright.151 quotedblright.021 by quotedblleft.230;
+    sub quotedblright.151 quotedblright.031 by quotedblleft.230;
+    sub bullet.075 quotedblright.021 by quotedblright.265;
+    sub bullet.075 quotedblright.031 by quotedblright.265;
+    sub endash.075 quotedblright.021 by bullet.165;
+    sub endash.075 quotedblright.031 by bullet.165;
+    sub emdash.076 quotedblright.021 by bullet.166;
+    sub emdash.076 quotedblright.031 by bullet.166;
+    sub quoteright.076 quotedblright.021 by quotedblright.266;
+    sub quoteright.076 quotedblright.031 by quotedblright.266;
+    sub quotedblleft.152 quotedblright.021 by quotedblleft.231;
+    sub quotedblleft.152 quotedblright.031 by quotedblleft.231;
+    sub quotedblright.152 quotedblright.021 by quotedblright.267;
+    sub quotedblright.152 quotedblright.031 by quotedblright.267;
+    sub quotedblleft.153 quotedblright.021 by bullet.167;
+    sub quotedblleft.153 quotedblright.031 by bullet.167;
+    sub quotedblright.153 quotedblright.021 by bullet.168;
+    sub quotedblright.153 quotedblright.031 by bullet.168;
+    sub bullet.076 quotedblright.021 by quotedblright.268;
+    sub bullet.076 quotedblright.031 by quotedblright.268;
+    sub endash.076 quotedblright.021 by quotedblleft.232;
+    sub endash.076 quotedblright.031 by quotedblleft.232;
+    sub emdash.077 quotedblright.021 by quotedblright.269;
+    sub emdash.077 quotedblright.031 by quotedblright.269;
+    sub quoteright.078 quotedblright.021 by bullet.169;
+    sub quoteright.078 quotedblright.031 by bullet.169;
+    sub quoteright.077 quotedblright.021 by bullet.170;
+    sub quoteright.077 quotedblright.031 by bullet.170;
+} abvs41;
+lookup abvs42 {
+    sub quotedblright.032 quotedblright.021 by quotedblright.193;
+    sub quotedblright.032 quotedblright.031 by quotedblright.193;
+    sub quotedblleft.040 quotedblright.021 by quotedblright.270;
+    sub quotedblleft.040 quotedblright.031 by quotedblright.270;
+    sub bullet.031 quotedblright.021 by quotedblleft.233;
+    sub bullet.031 quotedblright.031 by quotedblleft.233;
+    sub emdash.036 quotedblright.021 by quotedblright.271;
+    sub emdash.036 quotedblright.031 by quotedblright.271;
+    sub quotedblleft.076 quotedblright.021 by bullet.172;
+    sub quotedblleft.076 quotedblright.031 by bullet.172;
+    sub bullet.043 quotedblright.021 by quotedblleft.234;
+    sub bullet.043 quotedblright.031 by quotedblleft.234;
+    sub quotedblleft.086 quotedblright.021 by bullet.181;
+    sub quotedblleft.086 quotedblright.031 by bullet.181;
+    sub quotedblright.090 quotedblright.021 by quotedblright.273;
+    sub quotedblright.090 quotedblright.031 by quotedblright.273;
+    sub quotedblleft.094 quotedblright.021 by bullet.173;
+    sub quotedblleft.094 quotedblright.031 by bullet.173;
+    sub bullet.049 quotedblright.021 by bullet.174;
+    sub bullet.049 quotedblright.031 by bullet.174;
+    sub quotedblright.100 quotedblright.021 by bullet.180;
+    sub quotedblright.100 quotedblright.031 by bullet.180;
+    sub quoteright.052 quotedblright.021 by quotedblright.280;
+    sub quoteright.052 quotedblright.031 by quotedblright.280;
+    sub quoteright.057 quotedblright.021 by quotedblright.275;
+    sub quoteright.057 quotedblright.031 by quotedblright.275;
+    sub quotedblright.116 quotedblright.021 by bullet.176;
+    sub quotedblright.116 quotedblright.031 by bullet.176;
+    sub quotedblright.119 quotedblright.021 by quotedblright.276;
+    sub quotedblright.119 quotedblright.031 by quotedblright.276;
+    sub bullet.061 quotedblright.021 by quotedblleft.235;
+    sub bullet.061 quotedblright.031 by quotedblleft.235;
+    sub quoteright.067 quotedblright.021 by quotedblright.277;
+    sub quoteright.067 quotedblright.031 by quotedblright.277;
+    sub quotedblright.134 quotedblright.021 by bullet.177;
+    sub quotedblright.134 quotedblright.031 by bullet.177;
+    sub bullet.069 quotedblright.021 by bullet.178;
+    sub bullet.069 quotedblright.031 by bullet.178;
+    sub quotedblright.139 quotedblright.021 by quotedblright.278;
+    sub quotedblright.139 quotedblright.031 by quotedblright.278;
+    sub quotedblright.139 quotedblright.031 by quotedblright.278;
+    sub bullet.071 quotedblright.021 by quotedblleft.236;
+    sub bullet.077 quotedblright.021 by quotedblright.281;
+    sub bullet.077 quotedblright.031 by quotedblright.281;
+    sub quotedblleft.178 quotedblright.021 by bullet.171;
+    sub quotedblleft.178 quotedblright.031 by bullet.171;
+    sub quotedblleft.179 quotedblright.021 by quotedblright.272;
+    sub quotedblleft.179 quotedblright.031 by quotedblright.272;
+    sub bullet.091 quotedblright.021 by quotedblright.274;
+    sub bullet.091 quotedblright.031 by quotedblright.274;
+    sub quotedblleft.186 quotedblright.021 by bullet.175;
+    sub quotedblleft.186 quotedblright.031 by bullet.175;
+    sub bullet.096 quotedblright.021 by quotedblright.279;
+    sub bullet.096 quotedblright.031 by quotedblright.279;
+    sub endash.096 quotedblright.021 by bullet.179;
+    sub endash.096 quotedblright.031 by bullet.179;
+} abvs42;";
+tag = abvs;
+},
+{
+code = " # Akhands
+ script sinh; # Sinhala
+lookup akhn2 {
+    sub bullet.008 quoteright.016 quotedblright.021 quotedblright.024 bullet.008' by quotedblright.158;
+    sub bullet.008 quoteright.016 quotedblright.021 quotedblright.025 bullet.008' by quotedblright.158;
+    sub bullet.008 quoteright.016 quotedblright.021 bullet.008' by quotedblright.158;
+} akhn2;
+lookup akhn3 {
+    sub quoteright.005 quoteright.016 quotedblright.021 quotedblright.024 quotedblleft.008' by quotedblleft.206;
+    sub quoteright.005 quoteright.016 quotedblright.021 quotedblright.025 quotedblleft.008' by quotedblleft.206;
+    sub quoteright.005 quoteright.016 quotedblright.021 quotedblleft.008' by quotedblleft.206;
+} akhn3;
+lookup akhn4 {
+    sub quotedblright.008 quoteright.016 quotedblright.021 quotedblright.024 quotedblright.008' by quotedblright.213;
+    sub quotedblright.008 quoteright.016 quotedblright.021 quotedblright.025 quotedblright.008' by quotedblright.213;
+    sub quotedblright.008 quoteright.016 quotedblright.021 quotedblright.008' by quotedblright.213;
+} akhn4;
+lookup akhn5 {
+    sub bullet.009 quoteright.016 quotedblright.021 quotedblright.024 bullet.009' by bullet.109;
+    sub bullet.009 quoteright.016 quotedblright.021 quotedblright.025 bullet.009' by bullet.109;
+    sub bullet.009 quoteright.016 quotedblright.021 bullet.009' by bullet.109;
+} akhn5;
+lookup akhn6 {
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.024 quotedblright.158 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.025 quotedblright.158 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.158 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.024 quotedblleft.206 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.025 quotedblleft.206 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblleft.206 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.024 quotedblright.213 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.025 quotedblright.213 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.213 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.024 bullet.109 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' quotedblright.025 bullet.109 by EMPTY;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' bullet.109 by EMPTY;
+} akhn6;
+lookup akhn10 {
+    sub quoteright.005 quoteright.016 quotedblright.021 quotedblleft.008 by quotedblleft.206;
+    sub quotedblright.008 quoteright.016 quotedblright.021 quotedblright.008 by quotedblright.213;
+    sub bullet.008 quoteright.016 quotedblright.021 bullet.008 by quotedblright.158;
+    sub bullet.009 quoteright.016 quotedblright.021 bullet.008 by quotedblleft.171;
+} akhn10;
+lookup akhn11 {
+    sub quoteright.005 quotedblright.021 quoteright.016 quotedblright.016 by bullet.021;
+    sub quoteright.005 quotedblright.021 quoteright.016 quotedblright.017 by quotedblleft.043;
+    sub quotedblright.008 quotedblright.021 quoteright.016 endash.007 by endash.077;
+    sub quotedblright.010 quotedblright.021 quoteright.016 endash.005 by quotedblright.156;
+    sub quotedblright.010 quotedblright.021 quoteright.016 quoteright.006 by bullet.078;
+    sub bullet.006 quotedblright.021 quoteright.016 endash.006 by quotedblleft.154;
+    sub bullet.006 quotedblright.021 quoteright.016 endash.006 by quotedblleft.154;
+    sub quotedblleft.013 quotedblright.021 quoteright.016 quotedblright.013 by quotedblleft.086;
+    sub quotedblleft.013 quotedblright.021 quoteright.016 quotedblright.016 by emdash.044;
+    sub bullet.007 quotedblright.021 quoteright.016 endash.007 by emdash.078;
+    sub bullet.007 quotedblright.021 quoteright.016 quotedblright.016 by quotedblright.155;
+    sub emdash.007 quotedblright.021 quoteright.016 bullet.007 by quotedblright.100;
+    sub emdash.007 quotedblright.021 quoteright.016 endash.007 by quotedblleft.103;
+    sub emdash.007 quotedblright.021 quoteright.016 quotedblright.016 by quotedblright.154;
+    sub emdash.007 quotedblright.021 quoteright.016 quotedblright.013 by bullet.077;
+    sub quoteright.008 quotedblright.021 quoteright.016 endash.006 by quoteright.054;
+    sub quoteright.008 quotedblright.021 quoteright.016 endash.007 by endash.054;
+    sub quoteright.008 quotedblright.021 quoteright.016 quotedblright.016 by bullet.055;
+    sub quotedblleft.017 quotedblright.021 quoteright.016 emdash.007 by emdash.068;
+} akhn11;
+lookup akhn12 {
+    sub quoteright.009 quotedblright.021 quoteright.016 [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' [quotedblleft.008 quotedblright.008 bullet.008]' by quotedblleft.206;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' [quotedblleft.008 quotedblright.008 bullet.008]' quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.206;
+    sub [quoteright.005 quotedblright.008 bullet.008 bullet.009]' quoteright.016' quotedblright.021' [quotedblleft.008 quotedblright.008 bullet.008]' quotedblright.021 quoteright.016 emdash.008 by quotedblleft.206;
+} akhn12;
+lookup akhn13 {
+    sub quoteright.009 quotedblright.021 quoteright.016 [quoteright.005 emdash.008]' quotedblright.021' quoteright.016' [emdash.008 quotedblright.016 quotedblright.017]' by quoteright.005;
+    sub [quoteright.005 emdash.008]' quotedblright.021' quoteright.016' [emdash.008 quotedblright.016 quotedblright.017]' quotedblright.021 quoteright.016 quoteright.009 by quoteright.005;
+} akhn13;
+lookup akhn17 {
+    sub quoteright.005 quotedblright.021 quoteright.016 emdash.008 by quoteright.087;
+    sub quotedblleft.008 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.034;
+    sub quotedblright.008 quotedblright.021 quoteright.016 emdash.008 by quotedblright.029;
+    sub quotedblleft.009 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.145;
+    sub quotedblright.009 quotedblright.021 quoteright.016 emdash.008 by quotedblright.145;
+    sub bullet.005 quotedblright.021 quoteright.016 emdash.008 by bullet.015;
+    sub endash.005 quotedblright.021 quoteright.016 emdash.008 by endash.015;
+    sub emdash.005 quotedblright.021 quoteright.016 emdash.008 by emdash.073;
+    sub quoteright.006 quotedblright.021 quoteright.016 emdash.008 by quoteright.018;
+    sub quotedblleft.010 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.146;
+    sub quotedblright.010 quotedblright.021 quoteright.016 emdash.008 by quotedblright.146;
+    sub quotedblleft.011 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.147;
+    sub quotedblright.011 quotedblright.021 quoteright.016 emdash.008 by quotedblright.147;
+    sub bullet.006 quotedblright.021 quoteright.016 emdash.008 by bullet.073;
+    sub endash.006 quotedblright.021 quoteright.016 emdash.008 by endash.073;
+    sub emdash.006 quotedblright.021 quoteright.016 emdash.008 by emdash.074;
+    sub quoteright.007 quotedblright.021 quoteright.016 emdash.008 by quoteright.074;
+    sub quotedblleft.012 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.148;
+    sub quotedblright.012 quotedblright.021 quoteright.016 emdash.008 by quotedblright.148;
+    sub quotedblleft.013 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.149;
+    sub quotedblright.013 quotedblright.021 quoteright.016 emdash.008 by quotedblright.149;
+    sub bullet.007 quotedblright.021 quoteright.016 emdash.008 by endash.048;
+    sub endash.007 quotedblright.021 quoteright.016 emdash.008 by endash.074;
+    sub emdash.007 quotedblright.021 quoteright.016 emdash.008 by emdash.075;
+    sub quoteright.008 quotedblright.021 quoteright.016 emdash.008 by quoteright.075;
+    sub quotedblleft.014 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.150;
+    sub quotedblright.014 quotedblright.021 quoteright.016 emdash.008 by quotedblright.150;
+    sub quotedblleft.015 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.151;
+    sub quotedblright.015 quotedblright.021 quoteright.016 emdash.008 by quotedblright.151;
+    sub bullet.008 quotedblright.021 quoteright.016 emdash.008 by bullet.075;
+    sub endash.008 quotedblright.021 quoteright.016 emdash.008 by endash.075;
+    sub emdash.008 quotedblright.021 quoteright.016 emdash.008 by emdash.076;
+    sub quoteright.009 quotedblright.021 quoteright.016 emdash.008 by quoteright.076;
+    sub quotedblleft.016 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.152;
+    sub quotedblright.016 quotedblright.021 quoteright.016 emdash.008 by quotedblright.152;
+    sub quotedblleft.017 quotedblright.021 quoteright.016 emdash.008 by quotedblleft.153;
+    sub quotedblright.017 quotedblright.021 quoteright.016 emdash.008 by quotedblright.153;
+    sub bullet.009 quotedblright.021 quoteright.016 emdash.008 by bullet.076;
+    sub endash.009 quotedblright.021 quoteright.016 emdash.008 by endash.076;
+    sub emdash.009 quotedblright.021 quoteright.016 emdash.008 by emdash.077;
+    sub quoteright.010 quotedblright.021 quoteright.016 emdash.008 by quoteright.078;
+} akhn17;";
+tag = akhn;
+},
+{
+code = " # Reph Form
+ script sinh; # Sinhala
+    sub quoteright.009 quotedblright.021 quoteright.016 by quoteright.015;";
+tag = rphf;
+},
+{
+code = " # Pre-base Substitutions
+ script sinh; # Sinhala
+lookup pres15 {
+    sub quoteright.064 quotedblright.028 by quotedblright.032;
+} pres15;
+lookup pres20 {
+    sub quotedblleft.043 quotedblright.021 quoteright.016 emdash.008 by quoteright.077;
+} pres20;";
+tag = pres;
+},
+{
+code = " # Vattu Variants
+ script sinh; # Sinhala
+lookup vatu16 {
+    sub quoteright.005 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.040;
+    sub quotedblleft.008 quotedblright.021 quoteright.016 quoteright.009 by endash.023;
+    sub quotedblright.008 quotedblright.021 quoteright.016 quoteright.009 by quoteright.025;
+    sub quotedblleft.009 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.050;
+    sub quotedblright.009 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.052;
+    sub bullet.005 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.055;
+    sub endash.005 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.057;
+    sub emdash.005 quotedblright.021 quoteright.016 quoteright.009 by bullet.030;
+    sub quoteright.006 quotedblright.021 quoteright.016 quoteright.009 by endash.031;
+    sub quotedblleft.010 quotedblright.021 quoteright.016 quoteright.009 by endash.032;
+    sub quotedblright.010 quotedblright.021 quoteright.016 quoteright.009 by quoteright.034;
+    sub quotedblleft.011 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.068;
+    sub quotedblright.011 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.070;
+    sub bullet.006 quotedblright.021 quoteright.016 quoteright.009 by quoteright.037;
+    sub endash.006 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.074;
+    sub emdash.006 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.076;
+    sub quoteright.007 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.079;
+    sub quotedblleft.012 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.081;
+    sub quotedblright.012 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.083;
+    sub quotedblleft.013 quotedblright.021 quoteright.016 quoteright.009 by endash.043;
+    sub quotedblright.013 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.091;
+    sub bullet.007 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.094;
+    sub endash.007 quotedblright.021 quoteright.016 quoteright.009 by endash.049;
+    sub emdash.007 quotedblright.021 quoteright.016 quoteright.009 by emdash.050;
+    sub quoteright.008 quotedblright.021 quoteright.016 quoteright.009 by bullet.053;
+    sub quotedblleft.014 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.112;
+    sub quotedblright.014 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.114;
+    sub quotedblleft.015 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.117;
+    sub quotedblright.015 quotedblright.021 quoteright.016 quoteright.009 by bullet.060;
+    sub bullet.008 quotedblright.021 quoteright.016 quoteright.009 by endash.061;
+    sub endash.008 quotedblright.021 quoteright.016 quoteright.009 by emdash.062;
+    sub quotedblleft.016 quotedblright.021 quoteright.016 quoteright.009 by quotedblright.130;
+    sub quotedblright.016 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.132;
+    sub quotedblleft.017 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.135;
+    sub quotedblright.017 quotedblright.021 quoteright.016 quoteright.009 by endash.069;
+    sub bullet.009 quotedblright.021 quoteright.016 quoteright.009 by bullet.070;
+    sub endash.009 quotedblright.021 quoteright.016 quoteright.009 by endash.071;
+    sub emdash.009 quotedblright.021 quoteright.016 quoteright.009 by endash.072;
+    sub quoteright.010 quotedblright.021 quoteright.016 quoteright.009 by quotedblleft.156;
+    sub quotedblright.021 quoteright.016 quoteright.009 by bullet.014;
+    sub quotedblleft.043 quotedblright.021 quoteright.016 quoteright.009 by endash.096;
+    sub quotedblright.100 quotedblright.021 quoteright.016 quoteright.009 by quoteright.052;
+} vatu16;
+lookup vatu22 {
+    sub quotedblright.021 quoteright.016 emdash.008 by quotedblright.028;
+} vatu22;";
+tag = vatu;
+},
+{
+code = " # Below-Base Substitutions
+ script sinh; # Sinhala
+lookup blws18 {
+    sub quoteright.005 endash.012 by emdash.020;
+    sub quoteright.005 emdash.012 by quoteright.021;
+    sub quotedblleft.008 endash.012 by quotedblright.045;
+    sub quotedblleft.008 emdash.012 by bullet.023;
+    sub quotedblright.008 endash.012 by bullet.024;
+    sub quotedblright.008 emdash.012 by endash.024;
+    sub quotedblleft.009 endash.012 by emdash.025;
+    sub quotedblleft.009 emdash.012 by quoteright.026;
+    sub quotedblright.009 endash.012 by quoteright.027;
+    sub quotedblright.009 emdash.012 by quotedblleft.052;
+    sub bullet.005 endash.012 by quotedblleft.054;
+    sub bullet.005 emdash.012 by quotedblright.054;
+    sub endash.005 endash.012 by quotedblleft.056;
+    sub endash.005 emdash.012 by quotedblright.056;
+    sub emdash.005 endash.012 by quotedblleft.059;
+    sub emdash.005 emdash.012 by quotedblright.059;
+    sub quoteright.006 endash.012 by quotedblleft.061;
+    sub quoteright.006 emdash.012 by quotedblright.061;
+    sub quotedblleft.010 endash.012 by quotedblright.063;
+    sub quotedblleft.010 emdash.012 by bullet.032;
+    sub quotedblright.010 endash.012 by endash.033;
+    sub quotedblright.010 emdash.012 by emdash.033;
+    sub quotedblleft.011 endash.012 by emdash.034;
+    sub quotedblleft.011 emdash.012 by quoteright.035;
+    sub quotedblright.011 endash.012 by emdash.035;
+    sub quotedblright.011 emdash.012 by quoteright.036;
+    sub bullet.006 endash.012 by bullet.036;
+    sub bullet.006 emdash.012 by endash.036;
+    sub endash.006 endash.012 by emdash.037;
+    sub endash.006 emdash.012 by quoteright.038;
+    sub emdash.006 endash.012 by emdash.038;
+    sub emdash.006 emdash.012 by quoteright.039;
+    sub quoteright.007 endash.012 by quotedblleft.078;
+    sub quoteright.007 emdash.012 by quotedblright.078;
+    sub quotedblleft.012 endash.012 by quotedblleft.080;
+    sub quotedblleft.012 emdash.012 by quotedblright.080;
+    sub quotedblright.012 endash.012 by quotedblright.082;
+    sub quotedblright.012 emdash.012 by quotedblleft.083;
+    sub quotedblleft.013 endash.012 by quotedblleft.085;
+    sub quotedblleft.013 emdash.012 by quotedblright.085;
+    sub quotedblright.013 endash.012 by quoteright.046;
+    sub quotedblright.013 emdash.012 by quotedblleft.090;
+    sub bullet.007 endash.012 by quotedblright.093;
+    sub bullet.007 emdash.012 by bullet.047;
+    sub bullet.007 quotedblleft.024 by endash.047;
+    sub bullet.007 quotedblright.026 by quoteright.048;
+    sub endash.007 endash.012 by quotedblleft.097;
+    sub endash.007 emdash.012 by quotedblright.097;
+    sub emdash.007 endash.012 by bullet.050;
+    sub emdash.007 emdash.012 by endash.050;
+    sub quoteright.008 endash.012 by quotedblleft.105;
+    sub quoteright.008 emdash.012 by quotedblright.105;
+    sub quotedblleft.014 endash.012 by endash.056;
+    sub quotedblleft.014 emdash.012 by emdash.056;
+    sub quotedblright.014 endash.012 by quoteright.058;
+    sub quotedblright.014 emdash.012 by quotedblleft.114;
+    sub quotedblleft.015 endash.012 by quoteright.059;
+    sub quotedblleft.015 emdash.012 by quotedblleft.116;
+    sub quotedblright.015 endash.012 by quotedblright.118;
+    sub quotedblright.015 emdash.012 by quotedblleft.119;
+    sub bullet.008 endash.012 by quotedblleft.121;
+    sub bullet.008 emdash.012 by quotedblright.121;
+    sub endash.008 endash.012 by bullet.062;
+    sub endash.008 emdash.012 by endash.062;
+    sub emdash.008 endash.012 by endash.063;
+    sub emdash.008 emdash.012 by emdash.063;
+    sub quoteright.009 endash.012 by quotedblright.128;
+    sub quoteright.009 emdash.012 by quotedblleft.129;
+    sub quotedblleft.016 endash.012 by emdash.065;
+    sub quotedblleft.016 emdash.012 by quoteright.066;
+    sub quotedblright.016 endash.012 by endash.066;
+    sub quotedblright.016 emdash.012 by emdash.066;
+    sub quotedblleft.017 endash.012 by quoteright.068;
+    sub quotedblleft.017 emdash.012 by quotedblleft.134;
+    sub bullet.009 endash.012 by quotedblright.138;
+    sub bullet.009 emdash.012 by quotedblleft.139;
+    sub endash.009 endash.012 by quotedblleft.141;
+    sub endash.009 emdash.012 by quotedblright.141;
+    sub emdash.009 endash.012 by quotedblright.143;
+    sub emdash.009 emdash.012 by bullet.072;
+    sub quoteright.010 endash.012 by quotedblleft.144;
+    sub quoteright.010 emdash.012 by quotedblright.144;
+    sub quotedblright.028 endash.012 by quotedblright.126;
+    sub quotedblright.028 emdash.012 by quotedblleft.127;
+    sub quotedblleft.040 endash.012 by quoteright.079;
+    sub quotedblleft.040 emdash.012 by quotedblleft.155;
+    sub bullet.021 endash.012 by quotedblleft.042;
+    sub bullet.021 emdash.012 by quotedblright.042;
+    sub quotedblleft.043 endash.012 by emdash.022;
+    sub quotedblleft.043 emdash.012 by quoteright.023;
+    sub emdash.024 endash.012 by endash.087;
+    sub emdash.024 emdash.012 by emdash.088;
+    sub quotedblleft.050 endash.012 by quoteright.089;
+    sub quotedblleft.050 emdash.012 by quotedblleft.173;
+    sub quotedblleft.057 endash.012 by quoteright.090;
+    sub quotedblleft.057 emdash.012 by quotedblleft.174;
+    sub bullet.031 endash.012 by endash.088;
+    sub bullet.031 emdash.012 by emdash.090;
+    sub emdash.036 endash.012 by quotedblleft.177;
+    sub emdash.036 emdash.012 by quotedblright.179;
+    sub quotedblleft.076 endash.012 by emdash.092;
+    sub quotedblleft.076 emdash.012 by quoteright.093;
+    sub quotedblleft.081 endash.012 by quotedblleft.180;
+    sub quotedblleft.081 emdash.012 by quotedblright.182;
+    sub bullet.043 endash.012 by quotedblright.183;
+    sub bullet.043 emdash.012 by bullet.090;
+    sub quotedblleft.086 endash.012 by quotedblright.087;
+    sub quotedblleft.086 emdash.012 by bullet.044;
+    sub emdash.044 endash.012 by quotedblright.088;
+    sub emdash.044 emdash.012 by quotedblleft.089;
+    sub quotedblright.090 endash.012 by emdash.094;
+    sub quotedblright.090 emdash.012 by quoteright.095;
+    sub quotedblleft.094 endash.012 by quotedblright.184;
+    sub quotedblleft.094 emdash.012 by emdash.095;
+    sub endash.048 endash.012 by quotedblleft.199;
+    sub endash.048 emdash.012 by quotedblright.201;
+    sub bullet.049 endash.012 by quotedblleft.184;
+    sub bullet.049 emdash.012 by quotedblright.186;
+    sub quotedblright.100 endash.012 by endash.051;
+    sub quotedblright.100 emdash.012 by emdash.051;
+    sub quotedblleft.103 endash.012 by endash.052;
+    sub quotedblleft.103 emdash.012 by quotedblleft.237;
+    sub quoteright.054 endash.012 by quotedblright.107;
+    sub quoteright.054 emdash.012 by bullet.054;
+    sub endash.054 endash.012 by quotedblright.108;
+    sub endash.054 emdash.012 by quotedblleft.109;
+    sub quoteright.057 endash.012 by emdash.097;
+    sub quoteright.057 emdash.012 by quoteright.098;
+    sub quotedblright.116 endash.012 by bullet.092;
+    sub quotedblright.116 emdash.012 by endash.092;
+    sub quotedblright.119 endash.012 by emdash.098;
+    sub quotedblright.119 emdash.012 by quoteright.099;
+    sub bullet.061 endash.012 by quotedblright.190;
+    sub bullet.061 emdash.012 by emdash.099;
+    sub quoteright.064 endash.012 by quoteright.100;
+    sub quoteright.064 emdash.012 by quotedblleft.189;
+    sub quotedblleft.130 endash.012 by quotedblright.194;
+    sub quotedblleft.130 emdash.012 by quotedblleft.193;
+    sub quoteright.067 endash.012 by quotedblright.195;
+    sub quoteright.067 emdash.012 by bullet.094;
+    sub quotedblright.134 endash.012 by endash.094;
+    sub quotedblright.134 emdash.012 by emdash.102;
+    sub quotedblright.139 endash.012 by quotedblleft.195;
+    sub quotedblright.139 emdash.012 by quotedblright.197;
+    sub bullet.071 endash.012 by quotedblright.198;
+    sub bullet.071 emdash.012 by bullet.095;
+    sub quotedblright.158 endash.012 by bullet.108;
+    sub quotedblright.158 emdash.012 by quotedblright.212;
+    sub quotedblright.154 endash.012 by quotedblright.247;
+    sub quotedblright.154 emdash.012 by bullet.145;
+    sub bullet.077 endash.012 by bullet.147;
+    sub bullet.077 emdash.012 by bullet.148;
+    sub endash.077 endash.012 by bullet.100;
+    sub endash.077 emdash.012 by quotedblright.204;
+    sub emdash.078 endash.012 by bullet.102;
+    sub emdash.078 emdash.012 by quotedblright.206;
+    sub quotedblright.155 endash.012 by bullet.104;
+    sub quotedblright.155 emdash.012 by quotedblright.208;
+    sub quotedblleft.154 endash.012 by bullet.106;
+    sub quotedblleft.154 emdash.012 by quotedblright.210;
+    sub quotedblleft.172 endash.012 by quotedblright.174;
+    sub quotedblleft.172 emdash.012 by bullet.087;
+    sub quotedblright.176 endash.012 by quotedblleft.175;
+    sub quotedblright.176 emdash.012 by quotedblright.177;
+    sub quotedblleft.176 endash.012 by quotedblright.178;
+    sub quotedblleft.176 emdash.012 by emdash.091;
+    sub quotedblleft.178 endash.012 by quotedblright.180;
+    sub quotedblleft.178 emdash.012 by bullet.089;
+    sub quotedblleft.179 endash.012 by quotedblright.181;
+    sub quotedblleft.179 emdash.012 by emdash.093;
+    sub bullet.091 endash.012 by endash.091;
+    sub bullet.091 emdash.012 by emdash.096;
+    sub quotedblleft.186 endash.012 by quotedblright.188;
+    sub quotedblleft.186 emdash.012 by quotedblleft.187;
+    sub quoteright.105 endash.012 by quotedblleft.197;
+    sub quoteright.105 emdash.012 by quotedblright.199;
+} blws18;
+lookup blws19 {
+    sub quoteright.087 endash.012 by quotedblleft.207;
+    sub quoteright.087 emdash.012 by quotedblright.215;
+    sub quotedblleft.034 endash.012 by bullet.111;
+    sub quotedblleft.034 emdash.012 by bullet.112;
+    sub quotedblright.029 endash.012 by quotedblright.216;
+    sub quotedblright.029 emdash.012 by quotedblleft.208;
+    sub quotedblleft.145 endash.012 by quotedblright.217;
+    sub quotedblleft.145 emdash.012 by bullet.113;
+    sub quotedblright.145 endash.012 by bullet.114;
+    sub quotedblright.145 emdash.012 by quotedblright.218;
+    sub bullet.015 endash.012 by bullet.115;
+    sub bullet.015 emdash.012 by bullet.116;
+    sub endash.015 endash.012 by quotedblright.219;
+    sub endash.015 emdash.012 by quotedblleft.209;
+    sub emdash.073 endash.012 by quotedblright.220;
+    sub emdash.073 emdash.012 by bullet.117;
+    sub quoteright.018 endash.012 by bullet.118;
+    sub quoteright.018 emdash.012 by quotedblright.221;
+    sub quotedblleft.146 endash.012 by quotedblleft.210;
+    sub quotedblleft.146 emdash.012 by quotedblright.222;
+    sub quotedblright.146 endash.012 by bullet.119;
+    sub quotedblright.146 emdash.012 by bullet.120;
+    sub quotedblright.147 endash.012 by quotedblright.223;
+    sub quotedblright.147 emdash.012 by quotedblleft.211;
+    sub bullet.073 endash.012 by quotedblright.224;
+    sub bullet.073 emdash.012 by bullet.121;
+    sub endash.073 endash.012 by bullet.122;
+    sub endash.073 emdash.012 by quotedblright.225;
+    sub emdash.074 endash.012 by quotedblleft.212;
+    sub emdash.074 emdash.012 by quotedblright.226;
+    sub quoteright.074 endash.012 by bullet.123;
+    sub quoteright.074 emdash.012 by bullet.124;
+    sub quotedblleft.148 endash.012 by quotedblright.227;
+    sub quotedblleft.148 emdash.012 by quotedblleft.213;
+    sub quotedblright.148 endash.012 by quotedblright.228;
+    sub quotedblright.148 emdash.012 by bullet.125;
+    sub quotedblleft.149 endash.012 by bullet.126;
+    sub quotedblleft.149 emdash.012 by quotedblright.229;
+    sub quotedblright.149 endash.012 by quotedblleft.214;
+    sub quotedblright.149 emdash.012 by quotedblright.230;
+    sub endash.074 endash.012 by bullet.127;
+    sub endash.074 emdash.012 by bullet.128;
+    sub emdash.075 endash.012 by quotedblright.231;
+    sub emdash.075 emdash.012 by quotedblleft.215;
+    sub quoteright.075 endash.012 by quotedblright.232;
+    sub quoteright.075 emdash.012 by bullet.129;
+    sub quotedblleft.150 endash.012 by bullet.130;
+    sub quotedblleft.150 emdash.012 by quotedblright.233;
+    sub quotedblright.150 endash.012 by bullet.131;
+    sub quotedblright.150 emdash.012 by bullet.132;
+    sub quotedblleft.151 endash.012 by quotedblright.234;
+    sub quotedblleft.151 emdash.012 by quotedblleft.216;
+    sub quotedblright.151 endash.012 by quotedblright.235;
+    sub quotedblright.151 emdash.012 by bullet.133;
+    sub bullet.075 endash.012 by bullet.134;
+    sub bullet.075 emdash.012 by quotedblright.236;
+    sub endash.075 endash.012 by quotedblleft.217;
+    sub endash.075 emdash.012 by quotedblright.237;
+    sub emdash.076 endash.012 by bullet.135;
+    sub emdash.076 emdash.012 by bullet.136;
+    sub quoteright.076 endash.012 by quotedblright.238;
+    sub quoteright.076 emdash.012 by quotedblleft.218;
+    sub quotedblleft.152 endash.012 by quotedblright.239;
+    sub quotedblleft.152 emdash.012 by bullet.137;
+    sub quotedblright.152 endash.012 by bullet.138;
+    sub quotedblright.152 emdash.012 by quotedblright.240;
+    sub quotedblleft.153 endash.012 by quotedblleft.219;
+    sub quotedblleft.153 emdash.012 by quotedblright.241;
+    sub quotedblright.153 endash.012 by bullet.139;
+    sub quotedblright.153 emdash.012 by bullet.140;
+    sub bullet.076 endash.012 by quotedblright.242;
+    sub bullet.076 emdash.012 by quotedblleft.220;
+    sub endash.076 endash.012 by quotedblright.243;
+    sub endash.076 emdash.012 by bullet.141;
+    sub emdash.077 endash.012 by bullet.142;
+    sub emdash.077 emdash.012 by quotedblright.244;
+    sub quoteright.078 endash.012 by quotedblleft.221;
+    sub quoteright.078 emdash.012 by quotedblright.245;
+    sub quoteright.077 endash.012 by quotedblleft.224;
+    sub quoteright.077 emdash.012 by quotedblright.252;
+} blws19;
+lookup blws27 {
+    sub quotedblleft.043' quoteright.015 endash.012 by emdash.022;
+} blws27;
+lookup blws28 {
+    sub quotedblleft.043' quoteright.015 emdash.012 by quoteright.023;
+} blws28;
+lookup blws29 {
+    sub emdash.022 quoteright.015' [endash.012 emdash.012]' by quoteright.015;
+    sub quoteright.023 quoteright.015' [endash.012 emdash.012]' by quoteright.015;
+} blws29;
+lookup blws31 {
+    sub quotedblright.017 endash.012 by quotedblleft.137;
+    sub quotedblright.017 emdash.012 by quotedblright.137;
+    sub bullet.069 endash.012 by quoteright.103;
+    sub bullet.069 emdash.012 by quotedblleft.194;
+} blws31;
+lookup blws33 {
+    sub bullet.096 endash.012 by emdash.106;
+    sub bullet.096 emdash.012 by quoteright.107;
+} blws33;
+lookup blws37 {
+    sub quotedblright.032 endash.012 by quoteright.102;
+    sub quotedblright.032 emdash.012 by quotedblleft.192;
+} blws37;";
+tag = blws;
+},
+{
+code = " # Post-base Substitutions
+ script sinh; # Sinhala
+    sub quotedblleft.022 quotedblright.021 by endash.016;
+    sub quotedblleft.025 by quotedblright.031;
+    sub bullet.013 quotedblright.021 by endash.016;
+    sub bullet.013 by bullet.016;
+    sub endash.013 by endash.016;
+    sub emdash.013 by emdash.016;";
+tag = psts;
+}
+);
+fontMaster = (
+{
+guides = (
+{
+pos = (0,-164);
+}
+);
+id = "B33422F0-91E4-47C9-8809-C0A5C4DE8881";
+metricValues = (
+{
+over = 17;
+pos = 545;
+},
+{
+over = 18;
+pos = 738;
+},
+{
+pos = 975;
+},
+{
+over = -18;
+},
+{
+pos = 700;
+},
+{
+pos = -300;
+},
+{
+},
+{
+pos = 501;
+},
+{
+over = -12;
+pos = -281;
+}
+);
+name = Regular;
+stemValues = (
+45,
+110,
+41,
+44,
+41
+);
+}
+);
+instances = (
+{
+instanceInterpolations = {
+"B33422F0-91E4-47C9-8809-C0A5C4DE8881" = 1;
+};
+name = Regular;
+}
+);
+metrics = (
+{
+name = T1;
+},
+{
+name = T2;
+},
+{
+type = ascender;
+},
+{
+name = base;
+},
+{
+type = "cap height";
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+},
+{
+type = "x-height";
+},
+{
+name = z.dsc;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2002 Pushpanada Eknayaka, 2024 Mooniak. All rights reserved.";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "A font by Pushpanada Ekanayake, produced for future and distributed by Mooniak.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Pushpanada Ekanayake";
+}
+);
+},
+{
+key = designerURL;
+value = "http://isiwara.lk";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = mooniak;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.mooniak.com/";
+},
+{
+key = sampleTexts;
+values = (
+{
+language = dflt;
+value = "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ.";
+}
+);
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = MNIK;
+}
+);
+}
+);
+stems = (
+{
+horizontal = 1;
+name = H1;
+},
+{
+horizontal = 1;
+name = H2;
+},
+{
+horizontal = 1;
+name = Hstem;
+},
+{
+name = V1;
+},
+{
+name = Vstem;
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"B33422F0-91E4-47C9-8809-C0A5C4DE8881" = {
+HH = 53;
+HV = 94;
+OH = 71;
+OV = 91;
+nV = 165;
+oH = 65;
+oV = 90;
+tH = 55;
+};
+};
+};
+versionMajor = 0;
+versionMinor = 10;
+}

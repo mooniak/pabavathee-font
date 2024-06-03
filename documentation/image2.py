@@ -15,19 +15,26 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/ttf/Rubik-Regular.ttf"
+WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
+FONT_PATH = "fonts/ttf/Pabavathee-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "Helvetica"
+AUXILIARY_FONT = "Inconsolata"
 AUXILIARY_FONT_SIZE = 48
 
 LINE_ONE = "ABCDEFGHIJKLMNOPQ"
 LINE_TWO = "RSTUVWXYZ123456789"
 LINE_THREE = "abcdefghijklmnopqrstu"
 LINE_FOUR = "vwxyz,.;:!@#$%^&*(){}[]"
-BIG_TEXT_FONT_SIZE = 160
+LINE_FIVE = "අආඇඈඉඊඋඌඍඎඏඐ "
+LINE_SIX = "එඒඓඔඕඖකඛගඝඞඟච"
+LINE_SEVEN = "ඡජඣඤඥඦටඨඩඪණඬත"
+LINE_EIGHT = "ථදධනඳපඵබභමඹයරලවශ"
+LINE_NINE = "ෂසහළෆ෴"
+
+
+BIG_TEXT_FONT_SIZE = 155
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 13.2
 
 GRID_VIEW = False # Toggle this for a grid overlay
 
@@ -96,11 +103,16 @@ def draw_main_text():
     # Adjust this line to center main text manually.
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
-    LEADING = 1.2
+    LEADING = 1.4
     text(LINE_ONE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
     text(LINE_TWO, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * LEADING)))
     text(LINE_THREE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 2))))
     text(LINE_FOUR, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 3))))
+    text(LINE_FIVE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 4))))
+    text(LINE_SIX, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 5))))
+    text(LINE_SEVEN, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 6))))
+    text(LINE_EIGHT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 7))))
+    text(LINE_NINE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 8))))
 
 
 # Divider lines
